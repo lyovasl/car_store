@@ -8,7 +8,7 @@ import SearchManufacture from "./SearchManufacturer";
 import CarCard from "./CarCard";
 import CardDetalis from "./CardDetalis";
 import ShowMore from "./ShowMore";
-import LoginForm from "./LoginForm";
+import LoginForm from "../app/login/page";
 import RegisterForm from "./RegisterForm";
 import UserInfo from "./UserInfo";
 

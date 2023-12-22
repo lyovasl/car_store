@@ -18,7 +18,7 @@ const CustomButton = ({
       disabled={false}
       type={btnType || "button"}
       className={`bg-btnColor text-black rounded-3xl py-3 px-7 flex justify-between ${containerStyles}`}
-      onClick={handleClick}
+      onClick={onClick}
     >
       <span className={`${textStyle}`}>{title}</span>
 

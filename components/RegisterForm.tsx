@@ -94,7 +94,7 @@ const RegisterForm = () => {
               </div>
             )}
 
-            <Link href={"/"} className="text-[14px] font-bold mt-2 text-right">
+            <Link href={"/login"} className="text-[14px] font-bold mt-2 text-right">
               Already have an account
               <span className="underline">Login</span>
             </Link>

@@ -1,7 +1,6 @@
 "use client";
-
 import React, { useState } from "react";
-import { CustomButton } from ".";
+import { CustomButton } from "../../components";
 import Link from "next/link";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
@@ -10,7 +9,6 @@ const LoginForm = (e: React.ChangeEvent<HTMLFormElement>) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-
   const router = useRouter();
 
   const handlerClick = async (e: React.FormEvent<HTMLFormElement>) => {
